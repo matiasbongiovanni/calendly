@@ -1,0 +1,64 @@
+.calendly-inline-widget,
+.calendly-inline-widget *,
+.calendly-badge-widget,
+.calendly-badge-widget *,
+.calendly-overlay,
+.calendly-overlay * {
+    font-size: 16px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+
+.calendly-inline-widget iframe,
+.calendly-badge-widget iframe,
+.calendly-overlay iframe {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.calendly-popup-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.calendly-popup-content.calendly-mobile {
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+}
+
+.calendly-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 9999;
+    background-color: #a5a5a5;
+    background-color: rgba(31, 31, 31, .4);
+    display: flex;
+    align-items: center; /* Agregado */
+    overflow: hidden;
+}
+
+.calendly-overlay .calendly-close-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.calendly-overlay .calendly-popup {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 80%;
+    align-items: center;
+    overflow: hidden;
+    }
